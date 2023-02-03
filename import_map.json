@@ -1,0 +1,20 @@
+{
+	"imports": {
+		"~/": "./",
+		"std/": "https://deno.land/std@0.155.0/",
+		"@unocss/core": "https://esm.sh/@unocss/core@0.47.4",
+		"@unocss/preset-uno": "https://esm.sh/@unocss/preset-uno@0.47.4",
+		"@unocss/preset-wind": "https://esm.sh/@unocss/preset-wind@0.47.4",
+		"aleph/": "https://deno.land/x/aleph@1.0.0-beta.21/",
+		"aleph/server": "https://deno.land/x/aleph@1.0.0-beta.21/server/mod.ts",
+		"aleph/dev": "https://deno.land/x/aleph@1.0.0-beta.21/server/dev.ts",
+		"aleph/mdx": "https://deno.land/x/aleph@1.0.0-beta.21/runtime/react/mdx-loader.ts",
+		"aleph/vue": "https://deno.land/x/aleph@1.0.0-beta.21/runtime/vue/mod.ts",
+		"aleph/vue/": "https://deno.land/x/aleph@1.0.0-beta.21/runtime/vue/",
+		"aleph/vue-server": "https://deno.land/x/aleph@1.0.0-beta.21/runtime/vue/server.ts",
+		"vue": "https://esm.sh/vue@3.2.39",
+		"@mdx-js/vue": "https://esm.sh/@mdx-js/vue@2.1.5",
+		"@vue/server-renderer": "https://esm.sh/@vue/server-renderer@3.2.39"
+	},
+	"scopes": {}
+}
