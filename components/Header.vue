@@ -5,6 +5,7 @@ const pages = [
 	"News",
 	"About"
 ]
+const trailing_slash = '/'
 </script>
 
 <template>
@@ -14,7 +15,7 @@ const pages = [
 			<Link 
 				class="m-2 text-2xl" 
 				v-for="page in pages" 
-				to="/{{ page.toLowerCase() }}"
+				:to="trailing_slashs + page.toLowerCase()"
 			>
 				{{ page }}
 			</Link>
