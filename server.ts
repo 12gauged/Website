@@ -25,7 +25,7 @@ serve(
 			new MDX({
 				remarkPlugins: [remarkFrontmatter, remarkGFM],
 				rehypePlugins: [rehypeHighlight, rehypeSlug],
-				providerImportSource: "@mdx-js/vue"
+				providerImportSource: "https://esm.sh/@mdx-js/vue"
 			}),
 		],
 	},
